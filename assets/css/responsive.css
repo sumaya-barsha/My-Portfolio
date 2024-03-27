@@ -1,0 +1,90 @@
+@media only screen and (max-width: 992px) {
+
+    /*Navbar Start*/
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar .navbar-nav {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        border-bottom: 1px solid #2D5262;
+    }
+
+    /* About area*/
+    .about-area .profile-photo {
+        height: 200px !important;
+        width: 200px !important;
+        margin: auto;
+    }
+
+    .about-area .name {
+        text-align: center;
+        margin-top: 15px !important;
+    }
+
+    .about-area .designation {
+        text-align: center;
+    }
+
+    .about-area .social-link {
+        text-align: center;
+    }
+    .service-area .card {
+     height: auto;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    /*Navbar Start*/
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .navbar .navbar-nav {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        border-bottom: 1px solid #2D5262;
+    }
+
+    /* About area*/
+    .about-area .profile-photo {
+        height: 180px !important;
+        width: 180px !important;
+        margin: auto;
+        border-radius: 50% !important;
+    }
+
+    .about-area .name {
+        text-align: center;
+        margin-top: 15px !important;
+    }
+
+    .about-area .designation {
+        text-align: center;
+    }
+
+    .about-area .social-link {
+        text-align: center;
+    }
+
+    .about-area .c-Btn {
+        text-align: center;
+        margin-top: 20px !important;
+    }
+    .service-area .card {
+     height: auto;
+    }
+}
