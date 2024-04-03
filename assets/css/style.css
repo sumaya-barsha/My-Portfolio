@@ -217,6 +217,51 @@ body {
 
 /*------- Contact Area End --------*/
 
+/*------- My project Area Start --------*/
+.projects-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0C0C0C;
+}
+
+.projects-area .heading {
+    border-bottom: 1px solid #83C2FE;
+    margin-bottom: 10px;
+}
+.projects-area .card {
+    overflow: hidden;
+}
+ 
+.projects-area .card .p-thumbnail{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+
+}
+.projects-area .card .p-thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.projects-area .card:hover .p-thumbnail img{
+    transform: scale(1.2);
+    transition: .7s;
+}
+
+.projects-area .card .card-body .bi-eye{
+    font-size: 22px;
+}
+.projects-area .card .card-body p{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+/*------- My project Area End--------*/
+
 
 /*------- Footer Area Start --------*/
 footer {
